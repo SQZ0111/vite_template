@@ -1,4 +1,4 @@
-
+import Headline from './components/Headers/Headline'
 import './App.css'
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hallo Welt</h1>
+      <Headline text="Hallo Welt"/>
     </div>
   )
 }
